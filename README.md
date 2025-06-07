@@ -103,5 +103,5 @@ This project is for academic and learning purposes only.
 
 ---
 
-> Note: The pretrained **weights file is included in the repository** for reproducibility and direct usage.
+
 
