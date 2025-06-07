@@ -1,4 +1,4 @@
-# Crowd-Counting-Using-VCG16-and-CSRNet
+# Crowd Counting Using VCG16 and CSRNet
 
 This mini-project implements a deep learning-based crowd counting system designed to estimate the number of people in an image. It uses pretrained convolutional neural networks (CNNs), specifically **CSRNet** and **VGG16**, to generate density maps that reflect the spatial distribution of individuals in crowded scenes. The project was developed as part of our Deep Learning coursework.
 
@@ -41,6 +41,7 @@ Crowd counting is a key task in fields like surveillance, event management, and 
 
 ## System Architecture 
 
+![Crowd Density Map](system_architecture.png)
 
 
 
