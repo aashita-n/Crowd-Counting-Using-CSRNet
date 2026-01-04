@@ -2,13 +2,13 @@
 
 This mini-project implements a deep learning-based crowd counting system designed to estimate the number of people in an image. It uses pretrained convolutional neural networks (CNNs), specifically **CSRNet** and **VGG16**, to generate density maps that reflect the spatial distribution of individuals in crowded scenes. The project was developed as part of our Deep Learning coursework.
 
----
+
 
 ## Project Overview
 
 Crowd counting is a key task in fields like surveillance, event management, and public safety. This project leverages the power of **transfer learning** with pretrained models to perform accurate crowd estimation, especially in high-density environments where traditional methods fall short.
 
----
+
 
 ## Objective
 
@@ -17,7 +17,7 @@ Crowd counting is a key task in fields like surveillance, event management, and 
 - Estimate total crowd count by integrating over the density map.
 - Visualize results and evaluate performance using real datasets.
 
----
+
 
 ## Dataset Used
 
@@ -25,7 +25,7 @@ Crowd counting is a key task in fields like surveillance, event management, and 
   - Includes images of highly crowded scenes.
   - Head annotations are converted to density maps using Gaussian kernels.
 
----
+
 
 ## Technologies and Libraries
 
@@ -37,7 +37,6 @@ Crowd counting is a key task in fields like surveillance, event management, and 
 - **Matplotlib / Seaborn**
 - **Scikit-learn**
 
----
 
 ## System Architecture 
 
@@ -45,7 +44,7 @@ Crowd counting is a key task in fields like surveillance, event management, and 
 
 
 
----
+
 
 ## Steps Performed
 
@@ -68,7 +67,6 @@ Crowd counting is a key task in fields like surveillance, event management, and 
    - Visualized density maps overlaid on crowd images.
    - Assessed model robustness on unseen data.
 
----
 
 ## Results
 
@@ -76,7 +74,7 @@ Crowd counting is a key task in fields like surveillance, event management, and 
 - CSRNet’s architecture helped preserve spatial details.
 - Pretrained weights on VGG16 accelerated convergence and improved generalization.
 
----
+
 
 ## Future Enhancements
 
@@ -85,7 +83,7 @@ Crowd counting is a key task in fields like surveillance, event management, and 
 - Experiment with alternate architectures like **MCNN** or **SaCNN**.
 - Convert model for edge deployment using ONNX or TensorFlow Lite.
 
----
+
 
 ## Contributors
 
@@ -95,13 +93,13 @@ Crowd counting is a key task in fields like surveillance, event management, and 
 Mini Project submitted as part of the Deep Learning coursework  
 Department of Artificial Intelligence & Data Science
 
----
+
 
 ## License
 
 This project is for academic and learning purposes only.
 
----
+
 
 
 
